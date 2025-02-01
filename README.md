@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @JacobHallWeather
-- 👀 I’m interested in ... Meteorology and Hydrology
-- 🌱 I’m currently learning ... Meteorology and Python
-- 💞️ I’m looking to collaborate on ... Weather data analysis
+- 👀 I’m interested in ... Meteorology, Earth Sciences, and Web Development
+- 🌱 I’m currently learning ... Meteorology, React, and HTMX
+- 💞️ I’m looking to collaborate on ... Web Development
 - 📫 How to reach me ... raininggrays@gmail.com
 
 <!---
