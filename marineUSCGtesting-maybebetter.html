@@ -1,0 +1,20 @@
+requestAnimationFrame(() => {
+  setTimeout(async () => {
+    try {
+      // BUILD DATA FIRST
+      const fieldsToBuild = Object.keys(data.properties).filter(k =>
+        data.properties[k] && !data.properties[k].built
+      );
+
+      // Build all field data synchronously
+      const builtData = buildAllFieldsChunked(fieldsToBuild);
+      // Assign to window.fullCubeBuiltOut
+      window.fullCubeBuiltOut = builtData;
+
+      // Ensure renderAllCharts receives the already-built data
+      renderAllCharts(window.fullCubeBuiltOut, timeline, "#Forecast");
+    } catch (error) {
+      console.error('Error building data:', error);
+    }
+  }, 0);
+});
